@@ -1,0 +1,83 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: #625261;
+font-family: Arial Black, Algerian, sans-serif;
+text-align: center;
+}
+body{
+    background: #32e0c4;
+}
+header{
+    background: #e8e8e8;
+    padding: 25px;
+}
+header > h1 {
+    color: #625261;
+    text-align: center;
+    
+}
+.scoreBoard{
+    border: solid 5px #625261;
+    margin: 20px auto;
+    width: 250px;
+    color: #625261;
+    font-size: 45px;
+    padding: 20px 2px;
+    border-radius: 8px;
+    text-align: center;
+    font-family: Arial Black, Algerian, sans-serif;
+    position: relative;
+}
+.badge{
+    font-size: 25px;
+    background: #e8e8e8;
+    padding: 5px;
+    
+}
+#user{
+position: absolute;
+top:30px;
+right:210px;
+}
+#comp{
+    position: absolute;
+    top:30px;
+    left:210px;
+    }
+    .result{
+        font-size: 30px;
+        font-weight: bolder;
+    }
+    .choice{
+        display: inline-block;
+        border: solid  #625261 3px;
+        padding: 20px;
+        border-radius: 20%;
+        margin: 10px;
+        transition: all 0.2s ease-in-out;
+    }
+    .choices{
+        margin: 30px;   
+    }
+    .choice:hover{
+        background: cyan;
+        cursor: pointer;
+    }
+    .actionMessage{
+        font-size: 20px;
+        font-weight: bolder;
+    }
+.green-glow{
+    border: #32e032 3px solid;
+    box-shadow: 0 3px 10px 3px rgb(41, 106, 96);
+}
+.red-glow{
+    border: rgb(223, 23, 23) 3px solid;
+    box-shadow: 0 3px 10px 3px rgb(70, 7, 7);
+}
+.grey-glow{
+    border: rgb(24, 18, 18) 3px solid;
+    box-shadow: 0 3px 10px 3px rgba(88, 86, 86, 0.473);
+}
